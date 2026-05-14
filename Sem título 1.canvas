@@ -1,0 +1,188 @@
+{
+  "nodes": [
+    {
+      "id": "grupo-ativo",
+      "type": "group",
+      "x": -480,
+      "y": -300,
+      "width": 1700,
+      "height": 980,
+      "label": "Mapa ativo - hipótese universo-organismo",
+      "color": "1"
+    },
+    {
+      "id": "intro",
+      "type": "text",
+      "text": "# Corpo do Universo\n\nMapa ativo preenchido após a ativação dos plugins. Use os cartões como portas para as notas e o Canvas principal.",
+      "x": -420,
+      "y": -220,
+      "width": 360,
+      "height": 200,
+      "color": "1"
+    },
+    {
+      "id": "mapa-principal",
+      "type": "file",
+      "file": "02 Visualizações/Mapa Visual - Corpo do Universo.canvas",
+      "x": -420,
+      "y": 60,
+      "width": 360,
+      "height": 160,
+      "color": "6"
+    },
+    {
+      "id": "atlas",
+      "type": "file",
+      "file": "00 Atlas/Atlas - Universo como Organismo.md",
+      "x": 60,
+      "y": -220,
+      "width": 420,
+      "height": 180,
+      "color": "1"
+    },
+    {
+      "id": "conceitos",
+      "type": "file",
+      "file": "00 Atlas/MOC - Conceitos.md",
+      "x": 620,
+      "y": -240,
+      "width": 360,
+      "height": 140,
+      "color": "2"
+    },
+    {
+      "id": "analogias",
+      "type": "file",
+      "file": "00 Atlas/MOC - Analogias.md",
+      "x": 620,
+      "y": -40,
+      "width": 360,
+      "height": 140,
+      "color": "3"
+    },
+    {
+      "id": "modelos",
+      "type": "file",
+      "file": "00 Atlas/MOC - Modelos e Perguntas.md",
+      "x": 620,
+      "y": 160,
+      "width": 360,
+      "height": 140,
+      "color": "5"
+    },
+    {
+      "id": "galaxias",
+      "type": "file",
+      "file": "01 Hipótese Universo-Organismo/Conceitos/Galáxias como Órgãos.md",
+      "x": 60,
+      "y": 80,
+      "width": 360,
+      "height": 140,
+      "color": "3"
+    },
+    {
+      "id": "orgaos",
+      "type": "file",
+      "file": "01 Hipótese Universo-Organismo/Conceitos/Órgãos como Galáxias.md",
+      "x": 60,
+      "y": 280,
+      "width": 360,
+      "height": 140,
+      "color": "3"
+    },
+    {
+      "id": "orgao-galaxia",
+      "type": "file",
+      "file": "01 Hipótese Universo-Organismo/Analogias/Órgão-Galáxia.md",
+      "x": 620,
+      "y": 380,
+      "width": 360,
+      "height": 140,
+      "color": "3"
+    },
+    {
+      "id": "painel",
+      "type": "file",
+      "file": "00 Atlas/Painel Dataview - Hipótese Universo-Organismo.md",
+      "x": -420,
+      "y": 300,
+      "width": 360,
+      "height": 150,
+      "color": "6"
+    }
+  ],
+  "edges": [
+    {
+      "id": "e-intro-atlas",
+      "fromNode": "intro",
+      "fromSide": "right",
+      "toNode": "atlas",
+      "toSide": "left"
+    },
+    {
+      "id": "e-atlas-conceitos",
+      "fromNode": "atlas",
+      "fromSide": "right",
+      "toNode": "conceitos",
+      "toSide": "left"
+    },
+    {
+      "id": "e-atlas-analogias",
+      "fromNode": "atlas",
+      "fromSide": "right",
+      "toNode": "analogias",
+      "toSide": "left"
+    },
+    {
+      "id": "e-atlas-modelos",
+      "fromNode": "atlas",
+      "fromSide": "right",
+      "toNode": "modelos",
+      "toSide": "left"
+    },
+    {
+      "id": "e-atlas-galaxias",
+      "fromNode": "atlas",
+      "fromSide": "bottom",
+      "toNode": "galaxias",
+      "toSide": "top",
+      "label": "macro"
+    },
+    {
+      "id": "e-galaxias-orgaos",
+      "fromNode": "galaxias",
+      "fromSide": "bottom",
+      "toNode": "orgaos",
+      "toSide": "top",
+      "label": "espelha"
+    },
+    {
+      "id": "e-orgaos-dobradica",
+      "fromNode": "orgaos",
+      "fromSide": "right",
+      "toNode": "orgao-galaxia",
+      "toSide": "left"
+    },
+    {
+      "id": "e-galaxias-dobradica",
+      "fromNode": "galaxias",
+      "fromSide": "right",
+      "toNode": "orgao-galaxia",
+      "toSide": "left"
+    },
+    {
+      "id": "e-mapa-atlas",
+      "fromNode": "mapa-principal",
+      "fromSide": "right",
+      "toNode": "atlas",
+      "toSide": "left"
+    },
+    {
+      "id": "e-painel-atlas",
+      "fromNode": "painel",
+      "fromSide": "right",
+      "toNode": "atlas",
+      "toSide": "left"
+    }
+  ]
+}

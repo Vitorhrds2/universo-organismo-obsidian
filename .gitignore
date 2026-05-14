@@ -1,0 +1,11 @@
+.DS_Store
+.trash/
+
+# Obsidian local UI/cache state
+.obsidian/workspace.json
+.obsidian/workspace-mobile.json
+.obsidian/cache/
+.obsidian/tmp/
+
+# Local plugin runtime data
+.obsidian/plugins/*/data.json
