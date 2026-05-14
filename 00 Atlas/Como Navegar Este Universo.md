@@ -10,7 +10,7 @@ estado: vivo
 # Como Navegar Este Universo
 
 Parent:: [[Atlas - Universo como Organismo]]
-Friends:: [[Mapa Visual - Corpo do Universo.canvas]], [[Mapa Mermaid - Corpo do Universo]], [[Guia de Plugins Visuais]]
+Friends:: [[Mapa Visual - Corpo do Universo.canvas]], [[Mapa Mermaid - Corpo do Universo]], [[Galeria de Mídias - Universo-Organismo]], [[Guia de Plugins Visuais]]
 
 ## Rotas sugeridas
 
@@ -18,7 +18,8 @@ Friends:: [[Mapa Visual - Corpo do Universo.canvas]], [[Mapa Mermaid - Corpo do 
 2. Passe por [[Matéria como Universo]] e [[Conjunto Orgânico]].
 3. Abra [[Galáxias como Órgãos]] junto de [[Órgãos como Galáxias]].
 4. Veja [[Tabela de Correspondências]] para o mapa compacto.
-5. Termine em [[Limites Científicos]] e [[Perguntas Abertas]].
+5. Passe pela [[Galeria de Mídias - Universo-Organismo]] para ver o GIF e o trailer dentro do Obsidian.
+6. Termine em [[Limites Científicos]] e [[Perguntas Abertas]].
 
 ## Modo grafo
 
@@ -32,4 +33,4 @@ Ative tags e setas. As cores por pasta ajudam a diferenciar atlas, conceitos, an
 
 ## Modo mente visual
 
-Abra [[Mapa Visual - Corpo do Universo.canvas]] para uma leitura espacial. Depois, se os plugins estiverem ativos, abra a paleta de comandos e procure por `ExcaliBrain` para navegar a rede como um mapa vivo.
+Abra [[Mapa Visual - Corpo do Universo.canvas]] para uma leitura espacial e [[Galeria Visual - Mídias.canvas]] para navegar pelas mídias. Depois, se os plugins estiverem ativos, abra a paleta de comandos e procure por `ExcaliBrain` para navegar a rede como um mapa vivo.

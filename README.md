@@ -13,7 +13,7 @@
 
 <br>
 
-![Poema animado: Anatomia do Infinito](assets/media/poema-anatomia-infinito.gif)
+![Poema animado: Anatomia do Infinito](assets/media/poema_universo_lento_vitorhrds.gif)
 
 <br>
 
@@ -114,7 +114,7 @@ flowchart LR
 ├── 99 Sistema
 ├── assets
 │   └── media
-│       ├── poema-anatomia-infinito.gif
+│       ├── poema_universo_lento_vitorhrds.gif
 │       └── trailer-universo-organismo.mp4
 └── README.md
 ```

@@ -1,0 +1,130 @@
+{
+  "nodes": [
+    {
+      "id": "grupo-midia",
+      "type": "group",
+      "x": -520,
+      "y": -340,
+      "width": 1780,
+      "height": 980,
+      "label": "Galeria visual de mídias",
+      "color": "1"
+    },
+    {
+      "id": "intro",
+      "type": "text",
+      "text": "# Mídias do corpo-universo\n\nGIF e trailer ficam em `assets/media/`, mas são acessados por notas Obsidian para preservar embeds, links, backlinks e visualização no grafo.",
+      "x": -460,
+      "y": -260,
+      "width": 420,
+      "height": 220,
+      "color": "1"
+    },
+    {
+      "id": "galeria",
+      "type": "file",
+      "file": "05 Mídias/Galeria de Mídias - Universo-Organismo.md",
+      "x": -460,
+      "y": 40,
+      "width": 420,
+      "height": 180,
+      "color": "6"
+    },
+    {
+      "id": "gif-nota",
+      "type": "file",
+      "file": "05 Mídias/Poema Visual - Anatomia do Infinito.md",
+      "x": 120,
+      "y": -260,
+      "width": 380,
+      "height": 160,
+      "color": "3"
+    },
+    {
+      "id": "gif-arquivo",
+      "type": "file",
+      "file": "assets/media/poema_universo_lento_vitorhrds.gif",
+      "x": 580,
+      "y": -300,
+      "width": 560,
+      "height": 700,
+      "color": "3"
+    },
+    {
+      "id": "trailer-nota",
+      "type": "file",
+      "file": "05 Mídias/Trailer - Universo como Organismo.md",
+      "x": 120,
+      "y": 80,
+      "width": 380,
+      "height": 160,
+      "color": "5"
+    },
+    {
+      "id": "trailer-arquivo",
+      "type": "file",
+      "file": "assets/media/trailer-universo-organismo.mp4",
+      "x": 580,
+      "y": 460,
+      "width": 560,
+      "height": 220,
+      "color": "5"
+    },
+    {
+      "id": "atlas",
+      "type": "file",
+      "file": "00 Atlas/Atlas - Universo como Organismo.md",
+      "x": -460,
+      "y": 320,
+      "width": 420,
+      "height": 160,
+      "color": "1"
+    }
+  ],
+  "edges": [
+    {
+      "id": "e-intro-galeria",
+      "fromNode": "intro",
+      "fromSide": "bottom",
+      "toNode": "galeria",
+      "toSide": "top"
+    },
+    {
+      "id": "e-galeria-gif",
+      "fromNode": "galeria",
+      "fromSide": "right",
+      "toNode": "gif-nota",
+      "toSide": "left",
+      "label": "poema"
+    },
+    {
+      "id": "e-gif-arquivo",
+      "fromNode": "gif-nota",
+      "fromSide": "right",
+      "toNode": "gif-arquivo",
+      "toSide": "left"
+    },
+    {
+      "id": "e-galeria-trailer",
+      "fromNode": "galeria",
+      "fromSide": "right",
+      "toNode": "trailer-nota",
+      "toSide": "left",
+      "label": "trailer"
+    },
+    {
+      "id": "e-trailer-arquivo",
+      "fromNode": "trailer-nota",
+      "fromSide": "right",
+      "toNode": "trailer-arquivo",
+      "toSide": "left"
+    },
+    {
+      "id": "e-galeria-atlas",
+      "fromNode": "galeria",
+      "fromSide": "bottom",
+      "toNode": "atlas",
+      "toSide": "top"
+    }
+  ]
+}

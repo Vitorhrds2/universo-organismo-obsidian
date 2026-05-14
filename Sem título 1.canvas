@@ -109,6 +109,16 @@
       "width": 360,
       "height": 150,
       "color": "6"
+    },
+    {
+      "id": "galeria-midias",
+      "type": "file",
+      "file": "05 Mídias/Galeria de Mídias - Universo-Organismo.md",
+      "x": -420,
+      "y": 500,
+      "width": 360,
+      "height": 130,
+      "color": "3"
     }
   ],
   "edges": [
@@ -183,6 +193,14 @@
       "fromSide": "right",
       "toNode": "atlas",
       "toSide": "left"
+    },
+    {
+      "id": "e-galeria-atlas",
+      "fromNode": "galeria-midias",
+      "fromSide": "right",
+      "toNode": "atlas",
+      "toSide": "left",
+      "label": "mídias"
     }
   ]
 }

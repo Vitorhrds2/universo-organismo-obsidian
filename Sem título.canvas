@@ -3,11 +3,13 @@
 		{"id":"titulo","type":"text","text":"# Índice visual\n\nEste canvas deixou de ser vazio e aponta para as visualizações úteis da hipótese.","x":-260,"y":-180,"width":360,"height":180,"color":"1"},
 		{"id":"mapa","type":"file","file":"02 Visualizações/Mapa Visual - Corpo do Universo.canvas","x":220,"y":-180,"width":360,"height":150,"color":"6"},
 		{"id":"mermaid","type":"file","file":"02 Visualizações/Mapa Mermaid - Corpo do Universo.md","x":220,"y":30,"width":360,"height":150,"color":"6"},
-		{"id":"atlas","type":"file","file":"00 Atlas/Atlas - Universo como Organismo.md","x":-260,"y":80,"width":360,"height":150,"color":"1"}
+		{"id":"atlas","type":"file","file":"00 Atlas/Atlas - Universo como Organismo.md","x":-260,"y":80,"width":360,"height":150,"color":"1"},
+		{"id":"midias","type":"file","file":"02 Visualizações/Galeria Visual - Mídias.canvas","x":220,"y":240,"width":360,"height":150,"color":"3"}
 	],
 	"edges":[
 		{"id":"e-titulo-atlas","fromNode":"titulo","fromSide":"bottom","toNode":"atlas","toSide":"top"},
 		{"id":"e-titulo-mapa","fromNode":"titulo","fromSide":"right","toNode":"mapa","toSide":"left"},
-		{"id":"e-mapa-mermaid","fromNode":"mapa","fromSide":"bottom","toNode":"mermaid","toSide":"top"}
+		{"id":"e-mapa-mermaid","fromNode":"mapa","fromSide":"bottom","toNode":"mermaid","toSide":"top"},
+		{"id":"e-mermaid-midias","fromNode":"mermaid","fromSide":"bottom","toNode":"midias","toSide":"top"}
 	]
 }

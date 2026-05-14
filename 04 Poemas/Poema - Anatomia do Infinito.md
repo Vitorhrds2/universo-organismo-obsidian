@@ -10,7 +10,9 @@ estado: vivo
 # Poema - Anatomia do Infinito
 
 Parent:: [[Atlas - Universo como Organismo]]
-Friends:: [[Universo como Corpo]], [[Galáxias como Órgãos]], [[Órgãos como Galáxias]], [[Células como Sistemas Estelares]], [[Consciência Distribuída]]
+Friends:: [[Poema Visual - Anatomia do Infinito]], [[Universo como Corpo]], [[Galáxias como Órgãos]], [[Órgãos como Galáxias]], [[Células como Sistemas Estelares]], [[Consciência Distribuída]]
+
+![[assets/media/poema_universo_lento_vitorhrds.gif|520]]
 
 Se o universo for um corpo,  
 que corpo antigo ele será?  
