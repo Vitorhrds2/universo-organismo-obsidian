@@ -27,9 +27,9 @@
 
 <div align="center">
 
-<video src="assets/media/trailer-universo-organismo.mp4" controls="controls" muted="muted" width="100%"></video>
+<video src="https://github.com/user-attachments/assets/347939d1-153e-4b33-b3e3-b5d6d43135ac" controls="controls" muted="muted" width="100%"></video>
 
-[Abrir o trailer em MP4](assets/media/trailer-universo-organismo.mp4)
+[Baixar o trailer em MP4](assets/media/trailer-universo-organismo.mp4)
 
 </div>
 
