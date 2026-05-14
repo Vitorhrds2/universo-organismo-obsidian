@@ -12,8 +12,8 @@ estado: vivo
 > Hipótese especulativa: se matérias e conjuntos orgânicos forem universos em escala interna, então galáxias poderiam funcionar como órgãos, órgãos poderiam funcionar como galáxias, e o nosso universo poderia ser interpretado como um corpo.
 
 Parent:: [[Bem-vindo]]
-Children:: [[MOC - Conceitos]], [[MOC - Analogias]], [[MOC - Modelos e Perguntas]], [[Painel Dataview - Hipótese Universo-Organismo]], [[Poema - Anatomia do Infinito]], [[Galeria de Mídias - Universo-Organismo]]
-Friends:: [[Mapa Visual - Corpo do Universo.canvas]], [[Mapa Mermaid - Corpo do Universo]], [[Galeria Visual - Mídias.canvas]], [[Guia de Plugins Visuais]]
+Children:: [[Como Navegar Este Universo]], [[MOC - Conceitos]], [[MOC - Analogias]], [[MOC - Modelos e Perguntas]], [[Painel Dataview - Hipótese Universo-Organismo]], [[Poema - Anatomia do Infinito]], [[Galeria de Mídias - Universo-Organismo]]
+Friends:: [[Mapa Visual - Corpo do Universo.canvas]], [[Exploração Visual - Hipótese.canvas]], [[Mapa Mermaid - Corpo do Universo]], [[Galeria Visual - Mídias.canvas]], [[Guia de Plugins Visuais]]
 
 ## Núcleo da hipótese
 

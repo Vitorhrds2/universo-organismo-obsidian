@@ -90,6 +90,47 @@ flowchart LR
 
 ---
 
+## Cosmologia Visual (Graph View)
+
+Abaixo, uma representação da estrutura de conexões do vault. No Obsidian, você pode visualizar este mapa vivo pressionando `Ctrl/Cmd + G`.
+
+```mermaid
+graph TD
+  subgraph Atlas["00 Atlas (Núcleo)"]
+    A[Atlas Principal] --> M1[MOC Conceitos]
+    A --> M2[MOC Analogias]
+    A --> M3[MOC Modelos]
+    A --> N[Guia de Navegação]
+  end
+
+  subgraph Corpo["01 Hipótese (Corpo do Universo)"]
+    M1 --> C1[Universo como Corpo]
+    M1 --> C2[Matéria como Universo]
+    M1 --> C3[Galáxias como Órgãos]
+    M2 --> An1[Respiração Cósmica]
+    M2 --> An2[Morte Térmica]
+    M3 --> Mod1[Arquitetura de Escalas]
+    M3 --> Mod2[Limites Científicos]
+  end
+
+  subgraph Arte["04/05 Estética (Poesia e Mídia)"]
+    A --> P[Poema Anatomia do Infinito]
+    A --> G[Galeria de Mídias]
+  end
+
+  classDef atlas fill:#7C3AED,color:#fff,stroke:#333,stroke-width:2px;
+  classDef corpo fill:#22C55E,color:#fff,stroke:#333,stroke-width:1px;
+  classDef arte fill:#F5C77A,color:#000,stroke:#333,stroke-width:1px;
+  
+  class A,M1,M2,M3,N atlas;
+  class C1,C2,C3,An1,An2,Mod1,Mod2 corpo;
+  class P,G arte;
+```
+
+> **Dica Visual:** No Obsidian, as cores estão configuradas por pasta. As notas de **Atlas** aparecem em roxo, **Conceitos** em verde, e **Mídias/Poemas** em tons quentes.
+
+---
+
 ## Estrutura
 
 ```text

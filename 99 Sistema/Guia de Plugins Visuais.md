@@ -35,8 +35,12 @@ Instalei estes plugins em `.obsidian/plugins/` e deixei ativados em `.obsidian/c
 - Use [[Painel Dataview - Hipótese Universo-Organismo]] para ver a base como banco de dados.
 - Use [[Mapa Visual - Corpo do Universo.canvas]] para explorar a hipótese visualmente.
 - Use [[Galeria de Mídias - Universo-Organismo]] para abrir o GIF e o trailer com embeds nativos do Obsidian.
-- Use [[Sem título 1.canvas]] se o Obsidian abrir o canvas ativo que estava vazio.
+- Use [[Exploração Visual - Hipótese.canvas]] se o Obsidian abrir o canvas ativo que estava vazio.
 - Use a paleta de comandos e procure `ExcaliBrain` para abrir uma navegação dinâmica.
+
+## Fontes e Créditos
+
+Para mais informações sobre as fontes dos plugins e as leituras que inspiraram este vault, veja [[Fontes dos Plugins]].
 
 ## Depois de ativar os plugins
 
