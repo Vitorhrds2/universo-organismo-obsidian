@@ -51,8 +51,10 @@ A proposta não é tratar a metáfora como prova científica. O objetivo é cons
 |---|---|---|
 | Atlas | [Atlas - Universo como Organismo](00%20Atlas/Atlas%20-%20Universo%20como%20Organismo.md) | centro conceitual do vault |
 | Canvas | [Mapa Visual - Corpo do Universo](02%20Visualizações/Mapa%20Visual%20-%20Corpo%20do%20Universo.canvas) | mapa espacial com grupos, nós e conexões |
+| Graph View | [Print do Graph View](assets/media/obsidian-graph-view.png) | captura real da visualização em gráfico do Obsidian |
 | Painel vivo | [Painel Dataview](00%20Atlas/Painel%20Dataview%20-%20Hipótese%20Universo-Organismo.md) | consultas por metadata |
 | Poema | [Poema - Anatomia do Infinito](04%20Poemas/Poema%20-%20Anatomia%20do%20Infinito.md) | camada lírica da hipótese |
+| Mídias | [Galeria de Mídias](05%20Mídias/Galeria%20de%20Mídias%20-%20Universo-Organismo.md) | GIF, trailer e notas audiovisuais do vault |
 | Guia | [Guia de Plugins Visuais](99%20Sistema/Guia%20de%20Plugins%20Visuais.md) | como ativar e usar Dataview, Excalidraw e ExcaliBrain |
 
 ---
@@ -92,7 +94,19 @@ flowchart LR
 
 ## Cosmologia Visual (Graph View)
 
-Abaixo, uma representação da estrutura de conexões do vault. No Obsidian, você pode visualizar este mapa vivo pressionando `Ctrl/Cmd + G`.
+<div align="center">
+
+<img src="assets/media/obsidian-graph-view.png" alt="Print da visualização em gráfico do Obsidian para o vault Universo como Organismo" width="100%">
+
+<br>
+
+<sub>Print real da Visualização em gráfico do Obsidian: a hipótese como rede viva de notas, mídias, canvases e perguntas.</sub>
+
+</div>
+
+No Obsidian, você pode abrir este mapa vivo pela Visualização em gráfico. A captura acima registra a estrutura atual do vault depois da integração das notas conceituais, poemas, canvases, mídia visual e trailer.
+
+### Mapa lógico complementar
 
 ```mermaid
 graph TD
@@ -147,16 +161,24 @@ graph TD
 │   ├── Modelos
 │   └── Perguntas
 ├── 02 Visualizações
+│   ├── Galeria Visual - Mídias.canvas
 │   ├── Mapa Visual - Corpo do Universo.canvas
 │   └── Mapa Mermaid - Corpo do Universo.md
 ├── 03 Leituras e Fontes
 ├── 04 Poemas
 │   └── Poema - Anatomia do Infinito.md
+├── 05 Mídias
+│   ├── Galeria de Mídias - Universo-Organismo.md
+│   ├── Poema Visual - Anatomia do Infinito.md
+│   └── Trailer - Universo como Organismo.md
 ├── 99 Sistema
 ├── assets
 │   └── media
+│       ├── obsidian-graph-view.png
 │       ├── poema_universo_lento_vitorhrds.gif
 │       └── trailer-universo-organismo.mp4
+├── Exploração Visual - Hipótese.canvas
+├── Rascunho - Notas Soltas.canvas
 └── README.md
 ```
 
@@ -181,9 +203,10 @@ Os plugins estão versionados em `.obsidian/plugins/` para preservar a experiên
 1. Abra `Bem-vindo.md`.
 2. Entre no `Atlas - Universo como Organismo`.
 3. Explore o `Mapa Visual - Corpo do Universo.canvas`.
-4. Leia `Galáxias como Órgãos` junto de `Órgãos como Galáxias`.
-5. Termine em `Limites Científicos` e `Perguntas Abertas`.
-6. Volte ao poema quando quiser sentir a hipótese antes de analisá-la.
+4. Abra a `Galeria de Mídias - Universo-Organismo` para ver o GIF e o trailer dentro do vault.
+5. Leia `Galáxias como Órgãos` junto de `Órgãos como Galáxias`.
+6. Termine em `Limites Científicos` e `Perguntas Abertas`.
+7. Volte ao poema quando quiser sentir a hipótese antes de analisá-la.
 
 ---
 

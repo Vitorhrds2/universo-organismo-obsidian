@@ -5,18 +5,75 @@
   "showAttachments": true,
   "hideUnresolved": false,
   "showOrphans": true,
-  "collapse-color-groups": true,
-  "colorGroups": [],
-  "collapse-display": true,
-  "showArrow": false,
+  "collapse-color-groups": false,
+  "colorGroups": [
+    {
+      "query": "path:\"00 Atlas\"",
+      "color": {
+        "a": 1,
+        "rgb": 8134381
+      }
+    },
+    {
+      "query": "path:\"01 Hipótese Universo-Organismo/Conceitos\"",
+      "color": {
+        "a": 1,
+        "rgb": 2278750
+      }
+    },
+    {
+      "query": "path:\"01 Hipótese Universo-Organismo/Analogias\"",
+      "color": {
+        "a": 1,
+        "rgb": 3718648
+      }
+    },
+    {
+      "query": "path:\"01 Hipótese Universo-Organismo/Modelos\"",
+      "color": {
+        "a": 1,
+        "rgb": 10980346
+      }
+    },
+    {
+      "query": "path:\"01 Hipótese Universo-Organismo/Perguntas\"",
+      "color": {
+        "a": 1,
+        "rgb": 16007006
+      }
+    },
+    {
+      "query": "path:\"04 Poemas\"",
+      "color": {
+        "a": 1,
+        "rgb": 16107386
+      }
+    },
+    {
+      "query": "path:\"05 Mídias\" OR path:\"assets/media\"",
+      "color": {
+        "a": 1,
+        "rgb": 15714243
+      }
+    },
+    {
+      "query": "path:\"02 Visualizações\"",
+      "color": {
+        "a": 1,
+        "rgb": 15067115
+      }
+    }
+  ],
+  "collapse-display": false,
+  "showArrow": true,
   "textFadeMultiplier": 1.4,
-  "nodeSizeMultiplier": 0.114036458333333,
-  "lineSizeMultiplier": 0.530451388888889,
+  "nodeSizeMultiplier": 0.42,
+  "lineSizeMultiplier": 0.75,
   "collapse-forces": false,
-  "centerStrength": 1,
-  "repelStrength": 20,
-  "linkStrength": 1,
-  "linkDistance": 500,
-  "scale": 0.38793078427396044,
-  "close": false
+  "centerStrength": 0.72,
+  "repelStrength": 14,
+  "linkStrength": 1.15,
+  "linkDistance": 330,
+  "scale": 0.62,
+  "close": true
 }
